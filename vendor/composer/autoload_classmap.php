@@ -111,6 +111,7 @@ return array(
     'Directus\\Api\\Routes\\Permissions' => $baseDir . '/src/endpoints/Permissions.php',
     'Directus\\Api\\Routes\\ProjectHome' => $baseDir . '/src/endpoints/ProjectHome.php',
     'Directus\\Api\\Routes\\ProjectUpdate' => $baseDir . '/src/endpoints/ProjectUpdate.php',
+    'Directus\\Api\\Routes\\Payroll' => $baseDir . '/src/endpoints/Payroll.php',
     'Directus\\Api\\Routes\\ProjectsCreate' => $baseDir . '/src/endpoints/ProjectsCreate.php',
     'Directus\\Api\\Routes\\ProjectsDelete' => $baseDir . '/src/endpoints/ProjectsDelete.php',
     'Directus\\Api\\Routes\\Relations' => $baseDir . '/src/endpoints/Relations.php',

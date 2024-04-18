@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://directus.io" target="_blank" rel="noopener noreferrer">
+  <a href="#" target="_blank" rel="noopener noreferrer">
     <img src="https://user-images.githubusercontent.com/522079/43096167-3a1b1118-8e86-11e8-9fb2-7b4e3b1368bc.png" width="140" alt="Directus Logo"/>
   </a>
 </p>
@@ -11,7 +11,7 @@
 </h1>
 
 <h3 align="center">
-  <a href="https://directus.io">Website</a> • 
+  <a href="#">Website</a> • 
   <a href="https://docs.directus.io">Docs</a> • 
   <a href="https://docs.directus.io/api/reference.html">API Reference</a> • 
   <a href="https://docs.directus.io/guides/user-guide.html">User Guide</a> • 
@@ -100,7 +100,7 @@ Directus allows you to manage multilingual content in as many languages as your 
 ### Technical Support
 
 * **Community Support** — For help with open-source instances please post questions with the `directus` tag on [Stack Overflow](https://stackoverflow.com/questions/tagged/directus) or chat with members of our [Slack Community](https://directus.chat).
-* **Premium Support** — Directus Cloud customers, GitHub Sponsors, and those paying for hourly support all have access to our Live support over our [Live Chat](https://directus.io) or [Email](mailto:support@directus.io).
+* **Premium Support** — Directus Cloud customers, GitHub Sponsors, and those paying for hourly support all have access to our Live support over our [Live Chat](#) or [Email](mailto:support@directus.io).
 
 ### Community
 
@@ -109,7 +109,7 @@ Directus allows you to manage multilingual content in as many languages as your 
 
 ### GitHub Tickets
 
-* **Reporting Bugs** — If you believe you've found a bug in the Directus Core codebase, please submit new tickets to either the [App](https://github.com/directus/app/issues/new?template=Bug_report.md) or the [API](https://github.com/directus/api/issues/new?template=Bug_report.md). **For all security related issues, please chat with us directly through [directus.io](https://directus.io/).**
+* **Reporting Bugs** — If you believe you've found a bug in the Directus Core codebase, please submit new tickets to either the [App](https://github.com/directus/app/issues/new?template=Bug_report.md) or the [API](https://github.com/directus/api/issues/new?template=Bug_report.md). **For all security related issues, please chat with us directly through [directus.io](#/).**
 * **Requesting Features** — Feature requests are managed as GitHub issues within the appropriate Directus repository. Before making a new submission, first [browse existing feature requests](https://github.com/directus/app/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement) using the `enhancement` label. If you find a similar request, simply vote for it using the :+1: or :-1: reactions and add any additional context in the comments. If _not_, [add a new feature request](https://github.com/directus/app/issues/new?template=Feature_request.md) by completing the provided template.
 
 ### Online Demos
@@ -155,7 +155,7 @@ We love pull-requests! To work on Directus you'll need to install it locally fro
    </tr>
 </table>
 
-**[Advisors, Sponsors, Partners, and Key Contributors](https://directus.io/organization.html#the-team)**
+**[Advisors, Sponsors, Partners, and Key Contributors](#/organization.html#the-team)**
 
 <p>&nbsp;</p>
 

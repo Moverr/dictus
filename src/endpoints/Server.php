@@ -23,8 +23,18 @@ class Server extends Route
         $app->post('/projects', \Directus\Api\Routes\ProjectsCreate::class);
         $app->delete('/projects/{name}', \Directus\Api\Routes\ProjectsDelete::class);
         $app->get('/info', [$this, 'getInfo']);
+        $app->get('/gamba', [$this, 'datea']);
     }
 
+    function datea(Request $request, Response $response)  {
+        
+        $responseData['data'] = [
+            "Trust"=>"Gamer"
+
+        ];
+
+        return $this->responseWithData($request, $response, $responseData);
+    }
     /**
      * Return the projects.
      *

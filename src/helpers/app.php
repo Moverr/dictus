@@ -222,7 +222,7 @@ if (!function_exists('create_ping_server')) {
     {
         $app = create_app($basePath, array_merge([
             'app' => [
-                'env' => 'production',
+                'env' => 'dev',
             ],
         ], $config), $values);
 

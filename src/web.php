@@ -25,6 +25,8 @@ if (!$projectName) {
     return \Directus\create_unknown_project_app($basePath, $configData);
 }
 
+ 
+
 $maintenanceFlagPath = \Directus\create_maintenanceflag_path($basePath);
 if (file_exists($maintenanceFlagPath)) {
     http_response_code(503);
@@ -68,6 +70,8 @@ try {
 //  'staging' => no error suppression
 //
 // =============================================================================
+
+
 
 $errorReporting = E_ALL;
 $displayErrors = 1;
@@ -170,6 +174,13 @@ $app->group('/{project}', function () use ($middleware) {
         ->add($middleware['rate_limit_user'])
         ->add($middleware['auth'])
         ->add($middleware['table_gateway']);
+
+    $this->group('/payroll', \Directus\Api\Routes\Payroll::class)
+        ->add($middleware['rate_limit_user'])
+        ->add($middleware['auth'])
+        ->add($middleware['table_gateway']);
+
+
     $this->group('/collection_presets', \Directus\Api\Routes\CollectionPresets::class)
         ->add($middleware['rate_limit_user'])
         ->add($middleware['auth'])
@@ -203,6 +214,11 @@ $app->group('/{project}', function () use ($middleware) {
         ->add($middleware['rate_limit_user'])
         ->add($middleware['auth'])
         ->add($middleware['table_gateway']);
+
+
+
+
+        
     $this->group('/webhooks', \Directus\Api\Routes\Webhook::class)
         ->add($middleware['rate_limit_user'])
         ->add($middleware['auth'])

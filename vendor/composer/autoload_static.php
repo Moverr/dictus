@@ -488,6 +488,7 @@ class ComposerStaticInit3d85a18086d013a28316f25f6d6a2035
         'Directus\\Api\\Routes\\Permissions' => __DIR__ . '/../..' . '/src/endpoints/Permissions.php',
         'Directus\\Api\\Routes\\ProjectHome' => __DIR__ . '/../..' . '/src/endpoints/ProjectHome.php',
         'Directus\\Api\\Routes\\ProjectUpdate' => __DIR__ . '/../..' . '/src/endpoints/ProjectUpdate.php',
+        'Directus\\Api\\Routes\\Payroll' => __DIR__ . '/../..' . '/src/endpoints/Payroll.php',
         'Directus\\Api\\Routes\\ProjectsCreate' => __DIR__ . '/../..' . '/src/endpoints/ProjectsCreate.php',
         'Directus\\Api\\Routes\\ProjectsDelete' => __DIR__ . '/../..' . '/src/endpoints/ProjectsDelete.php',
         'Directus\\Api\\Routes\\Relations' => __DIR__ . '/../..' . '/src/endpoints/Relations.php',
