@@ -7,8 +7,7 @@ use Directus\Application\Application;
 use Directus\Application\Http\Request;
 use Directus\Application\Http\Response;
 use Directus\Application\Route;
-
-
+use Directus\Services\PayrollService;
 
 class Payroll extends Route
 {
@@ -24,15 +23,17 @@ class Payroll extends Route
      *
      * @return Response
      */
-    
+
    public function all(Request $request, Response $response)
    {
-      $responseData['data'] = [
-         "Trust"=>"Gamer"
+        $service = new PayrollService($this->container);
+        $responseData = $service->findAll(
+            $request->getQueryParams()
+        );
 
-     ];
+    return $this->responseWithData($request, $response,   $request->getQueryParams());
 
-     return $this->responseWithData($request, $response, $responseData);
+
    }
 
 

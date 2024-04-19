@@ -816,6 +816,8 @@ class ComposerStaticInit3d85a18086d013a28316f25f6d6a2035
         'Directus\\Services\\GraphQLService' => __DIR__ . '/../..' . '/src/core/Directus/Services/GraphQLService.php',
         'Directus\\Services\\InterfacesService' => __DIR__ . '/../..' . '/src/core/Directus/Services/InterfacesService.php',
         'Directus\\Services\\ItemsService' => __DIR__ . '/../..' . '/src/core/Directus/Services/ItemsService.php',
+        'Directus\\Services\\PayrollService' => __DIR__ . '/../..' . '/src/core/Directus/Services/PayrollService.php',
+       
         'Directus\\Services\\LayoutsService' => __DIR__ . '/../..' . '/src/core/Directus/Services/LayoutsService.php',
         'Directus\\Services\\MailService' => __DIR__ . '/../..' . '/src/core/Directus/Services/MailService.php',
         'Directus\\Services\\ModulesService' => __DIR__ . '/../..' . '/src/core/Directus/Services/ModulesService.php',

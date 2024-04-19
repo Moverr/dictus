@@ -30,6 +30,8 @@ class SchemaManager
     const COLLECTION_WEBHOOKS            = 'directus_webhooks';
     const COLLECTION_USER_SESSIONS       = 'directus_user_sessions';
 
+    const COLLECTION_PAYROLL              = 'payroll';
+
     /**
      * Schema source instance
      *

@@ -454,6 +454,8 @@ return array(
     'Directus\\Services\\UserSessionService' => $baseDir . '/src/core/Directus/Services/UserSessionService.php',
     'Directus\\Services\\UsersService' => $baseDir . '/src/core/Directus/Services/UsersService.php',
     'Directus\\Services\\UtilsService' => $baseDir . '/src/core/Directus/Services/UtilsService.php',
+    'Directus\\Services\\PayrollService' => $baseDir . '/src/core/Directus/Services/PayrollService.php',
+    
     'Directus\\Services\\WebhookService' => $baseDir . '/src/core/Directus/Services/WebhookService.php',
     'Directus\\Session\\Session' => $baseDir . '/src/core/Directus/Session/Session.php',
     'Directus\\Session\\Storage\\ArraySessionStorage' => $baseDir . '/src/core/Directus/Session/Storage/ArraySessionStorage.php',
